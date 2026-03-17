@@ -606,6 +606,9 @@ class ChatBotComponent extends HTMLElement {
             width: 50px;
             height: 50px;
             font-size: 24px;
+            position: fixed;
+            right: 16px;
+            bottom: 16px;
           }
           .panel{
             width: calc(100% - 48px);
