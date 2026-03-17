@@ -601,7 +601,7 @@ class ChatBotComponent extends HTMLElement {
           background: #fff;
         }
 
-        @media (max-width: 400px) {
+        @media (max-width: 320px) {
           .fab{
             width: 50px;
             height: 50px;
