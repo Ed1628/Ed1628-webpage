@@ -80,6 +80,13 @@ class PopUpPolicy extends HTMLElement {
             to   { transform: translateY(0);   opacity: 1; }
           }
         }
+        
+        @media (max-width: 480px) {
+          .dialog{
+            width: 100%;
+            padding: 16px;
+          }
+        }
       </style>
 
       <div class="overlay" part="overlay">
