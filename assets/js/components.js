@@ -87,6 +87,20 @@ class PopUpPolicy extends HTMLElement {
             padding: 16px;
           }
         }
+
+        @media (max-width: 320px) {
+          .dialog{
+            padding: 12px;
+          }
+          .header{
+            flex-direction: column;
+            align-items: start;
+          }
+          .actions{
+            justify-content: center;
+          }
+        } 
+        
       </style>
 
       <div class="overlay" part="overlay">
