@@ -579,6 +579,20 @@ class ChatBotComponent extends HTMLElement {
           padding: 0 10px 10px;
           background: #fff;
         }
+
+        @media (max-width: 400px) {
+          .fab{
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+          }
+          .panel{
+            width: calc(100% - 48px);
+            right: 24px;
+            bottom: 80px;
+          }
+        }
+        
       </style>
 
       <div class="fab" title="ChatBot" aria-label="Apri chatbot">💬</div>
