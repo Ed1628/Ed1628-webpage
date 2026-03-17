@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #eee;
+}
+
+p {
+    text-align: center;
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.divisorY {
+    width: 2px;
+    height: 100%;
+    background-color: #555;
+    margin: 0 20px;
+}
+
+.divisorX {
+    width: 100%;
+    height: 2px;
+    background-color: #555;
+    margin: 0;
+}
+
+section {
+    width: 80%;
+    margin: 30px 10%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section h2, p {
+    margin: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+section img {
+    width: 150px; ;
+    height: auto;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.card-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+ul li {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #eee;
+    font-size: 1.1em;
+}
+
+ul li:hover {
+    background-color: #555;
+    cursor: pointer;
+    scale: 1.1;
+}

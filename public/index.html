@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <title>Ed 1628 EP Art Studio &copy;</title>
+</head>
+<body>
+   <header-component
+        home-link="./../index.html"
+        projects-link="./pages/projects.html"
+        about-link="./pages/about.html">
+   </header-component>
+    <div class="divisorX"></div>
+    <popup-policy>
+        <p>Il sito non utilizza cookie di profilazione, ma solo cookie tecnici necessari al funzionamento del sito. Per maggiori informazioni, consulta la nostra <a href="../privacy-policy.html">Privacy Policy</a>.</p>
+    </popup-policy>
+    <main>
+        <!-- Qui puoi aggiungere il contenuto principale del sito -->
+         <section-component>
+            <h2 slot="title">Benvenuti su Ed 1628 EP Art Studio</h2>
+             <p slot="description">Ed 1628 EP Art Studio è un progetto personale dedicato alla creazione di opere d'arte digitale. Il nostro obiettivo è esplorare nuove forme di espressione artistica attraverso l'uso di tecnologie digitali e software di grafica avanzata.</p>
+             <p slot="description">Il nostro studio si concentra su una vasta gamma di stili e tecniche, dalla pittura digitale alla modellazione 3D, dalla grafica vettoriale all'animazione. Siamo appassionati di sperimentazione e innovazione, e ci impegniamo a creare opere uniche e originali che riflettano la nostra visione artistica.</p>
+             <p>Il mio archivio è spesso pubblico. Che si tratti di uno script in JavaScript, di uno shader per un gioco o di un'illustrazione digitale, preferisco che il mio lavoro sia un punto di partenza per gli altri piuttosto che un punto di arrivo per me stesso. Contribuire a progetti collettivi è la mia più grande fonte di apprendimento.</p>
+        </section-component>
+        <section>
+            <h2 slot="title">I nostri progetti</h2>
+            <p slot="description">Nel corso degli anni, abbiamo svolto studi su diversi progetti di sviluppo web e gaming, spaziando dal web developing con Three.js a React.expo, continuando la nostra avventura in diversi motori grafici, il tutto in uno stack opensource, dalla grafica 3D in blender al famoso Krita per texture accattivanti e personalizzate.</p>
+           
+        </section->
+         <div class="card-img">
+                <img src="../media/blender.png" alt="Blender">
+                <img src="../media/Krita.svg" alt="Krita">
+                <img src="../media/threejs.png" alt="Three.js">
+                <img src="../media/react-expo.png" alt="React.expo">
+                <img src="../media/godot.png" alt="Godot">
+            </div>
+
+        <h1>Collaborazione e sostegno culturale</h1>
+        <section>
+            <h2>La cultura come motore creativo</h2>
+            <p>La cultura è il motore della nostra creatività. Crediamo che l'arte e la cultura siano fondamentali per lo sviluppo personale e collettivo, e ci impegniamo a promuovere iniziative culturali che stimolino la creatività e l'innovazione.</p>
+            <p>Si può tutto anche solo con l' aiuto di una parola di conforto, quersta è la nostra filosofia di sviluppo e creatività, non è di obbligo stare ai canoni del buisness per poter avere competenze in materia.</p>
+            <p>Hai un'idea per un progetto open source? Stai sviluppando un gioco indie e ti serve una mano o un confronto? Oppure vuoi semplicemente scambiare due righe sul futuro del web libero?</p>
+        </section>
+ 
+    </main>
+    <chatbot-component></chatbot-component>
+    <footer-component></footer-component>
+    <script type="module" src="./chatbot-component.js"></script>
+
+<!-- puoi cambiare il db-url -->
+<chatbot-component db-url="../data/chatbot-db.json"></chatbot-component>
+    <script type="module" src="../assets/js/components.js"></script>
+</body>
+</html>

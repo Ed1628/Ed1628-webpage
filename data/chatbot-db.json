@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "q": ["ciao", "hey", "salve"],
+      "a": "Ciao! Come posso aiutarti?",
+      "img": null
+    },
+    {
+      "q": ["come va", "come stai", "tutto bene"],
+      "a": "Sto bene, grazie! E tu?",
+      "img": null
+    },
+    {
+      "q": ["grazie", "grazie mille", "grazie tante"],
+      "a": "Prego! Se hai altre domande, sono qui per aiutarti.",
+      "img": null
+    },
+    {
+      "q": ["progetti", "che linguaggi usate", "quali piattaforme supportate"],
+      "a": "Attualmente stiamo lavorando su un progetto di intelligenza artificiale che utilizza Python e TensorFlow. Supportiamo principalmente piattaforme web e mobile.",
+      "img": null
+    },
+    {
+      "q": ["quali game engine usate", "usate unreal", "usate godot"],
+      "a": "Attualmente stiamo lavorando su un progetto di intelligenza artificiale che utilizza Python e TensorFlow. Supportiamo principalmente piattaforme web e mobile, con un focus particolare su Godot 4 per lo sviluppo di giochi.",
+      "img": null
+    },
+    {
+      "q": ["chi siete", "chi siete?", "chi siete?"],
+      "a": "Siamo un team di sviluppatori appassionati di tecnologia e innovazione, indipendenti senza scopo di lucro. Ci dedichiamo a creare soluzioni software all'avanguardia per migliorare la vita delle persone, nel limite del possibile tutto opensource.",
+      "img": null
+    },
+    {
+      "q": ["sistema operativi", "quale sistema operativo usate", "usate linux"],
+      "a": "Usiamo qualsiasi tipo di sistema operativo che sia opensource, miriamo alla libertà tecnologica alla portata degli appassionati e professionisti.",
+      "img": null
+    },
+    {
+      "q": ["quale scopo avete", "quale è il vostro scopo", "cosa volete raggiungere"],
+      "a": "Il nostro obiettivo è quello di promuovere la libertà di espressione attraverso la tecnologia, e promuovere la collaborazione e l'opensource, nel rispetto di coloro che hanno preceduto i nostri passi.",
+      "img": null
+    },
+    {
+      "q": ["cosa fate", "cosa fate?", "cosa fate?"],
+      "a": "Sviluppiamo software e soluzioni tecnologiche innovative, con un focus particolare su progetti di intelligenza artificiale e sviluppo di giochi, sempre con un occhio di riguardo alla libertà tecnologica e all'opensource.",
+      "img": null
+    },
+    {
+      "q": ["posso collaborare", "come posso aiutare", "voglio partecipare"],
+      "a": "Assolutamente sì! La collaborazione è il cuore del nostro lavoro. Se sei un programmatore o un artista, puoi contribuire ai nostri repository o proporre nuove idee. Ogni contributo è prezioso.",
+      "img": null
+    },
+    {
+      "q": ["arte e codice", "collaborazione artisti", "design"],
+      "a": "Crediamo che l'unione tra codice e arte sia fondamentale. Cerchiamo costantemente artisti digitali, musicisti e designer che vogliano dare vita ai nostri progetti opensource, rendendoli non solo funzionali ma anche belli da vedere ed esperire.",
+      "img": null
+    },
+    {
+      "q": ["licenza", "che licenza usate", "posso usare il vostro codice"],
+      "a": "Il nostro codice è generalmente rilasciato sotto licenze permissive (come MIT o GPL). Vogliamo che la tecnologia sia libera e che chiunque possa studiarla, modificarla e migliorarla.",
+      "img": null
+    },
+    {
+      "q": ["perché opensource", "vantaggi opensource"],
+      "a": "L'opensource permette una crescita collettiva: il codice è trasparente, sicuro e accessibile a tutti. È il nostro modo di restituire valore alla comunità globale.",
+      "img": null
+    },
+    {
+      "q": ["come posso contattarvi", "dove posso trovarvi", "avete un sito web"],
+      "a": "Puoi contattarci attraverso il nostro server Discord (link nel footer) o visitare il nostro repository GitHub per vedere i nostri progetti e contribuire.",
+      "img": null
+    }
+  ],
+  "fallback": {
+    "a": "Non ho capito. Puoi riformulare la domanda? Se vuoi sapere come collaborare ai nostri progetti opensource, chiedimelo pure!",
+    "img": null
+  }
+}
