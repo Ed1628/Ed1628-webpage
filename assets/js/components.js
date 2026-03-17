@@ -229,6 +229,19 @@ class HeaderComponent extends HTMLElement {
         } 
 
         @media (max-width: 320px) {
+          header {  
+            width: 100%;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
           nav a{
             margin-right: 12px;
             font-size: 14px;
