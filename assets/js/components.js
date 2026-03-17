@@ -217,6 +217,23 @@ class HeaderComponent extends HTMLElement {
           text-decoration: none;
         }
         .logo a:hover{ text-decoration: underline; }
+        @media (max-width: 480px) {
+          header{
+            flex-direction: column;
+            gap: 12px;
+          }
+          nav a{
+            margin-left: 0;
+            margin-right: 16px;
+          }
+        } 
+
+        @media (max-width: 320px) {
+          nav a{
+            margin-right: 12px;
+            font-size: 14px;
+          }
+        } 
       </style>
 
       <header>
